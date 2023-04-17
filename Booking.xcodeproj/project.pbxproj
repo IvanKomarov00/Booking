@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1722866829EDE2D5009266F0 /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1722866729EDE2D5009266F0 /* HomeView.storyboard */; };
+		1722866B29EDE98E009266F0 /* CartView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1722866A29EDE98E009266F0 /* CartView.storyboard */; };
+		1722866E29EDEC44009266F0 /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1722866D29EDEC44009266F0 /* ProfileView.storyboard */; };
+		1722867029EDEE58009266F0 /* MenuHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1722866F29EDEE58009266F0 /* MenuHomeViewController.swift */; };
+		1722867329EDEE9F009266F0 /* MenuHomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1722867229EDEE9F009266F0 /* MenuHomeView.storyboard */; };
 		176E9A1A29E8A180006B2904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176E9A1929E8A180006B2904 /* AppDelegate.swift */; };
 		176E9A1C29E8A180006B2904 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176E9A1B29E8A180006B2904 /* SceneDelegate.swift */; };
 		176E9A2129E8A180006B2904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176E9A1F29E8A180006B2904 /* Main.storyboard */; };
 		176E9A2329E8A181006B2904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176E9A2229E8A181006B2904 /* Assets.xcassets */; };
 		176E9A2629E8A181006B2904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176E9A2429E8A181006B2904 /* LaunchScreen.storyboard */; };
 		178A49D029EDBE8400BCEB73 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A49CF29EDBE8400BCEB73 /* MainTabBarController.swift */; };
-		178A49D629EDC1BA00BCEB73 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A49D529EDC1BA00BCEB73 /* FirstViewController.swift */; };
-		178A49D829EDC1DA00BCEB73 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A49D729EDC1DA00BCEB73 /* SecondViewController.swift */; };
-		178A49DA29EDC1F200BCEB73 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A49D929EDC1F200BCEB73 /* ThirdViewController.swift */; };
+		178A49D629EDC1BA00BCEB73 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A49D529EDC1BA00BCEB73 /* HomeViewController.swift */; };
+		178A49D829EDC1DA00BCEB73 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A49D729EDC1DA00BCEB73 /* CartViewController.swift */; };
+		178A49DA29EDC1F200BCEB73 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A49D929EDC1F200BCEB73 /* ProfileViewController.swift */; };
 		178A49DC29EDC8CE00BCEB73 /* ColorExtantion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A49DB29EDC8CE00BCEB73 /* ColorExtantion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1722866729EDE2D5009266F0 /* HomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		1722866A29EDE98E009266F0 /* CartView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartView.storyboard; sourceTree = "<group>"; };
+		1722866D29EDEC44009266F0 /* ProfileView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
+		1722866F29EDEE58009266F0 /* MenuHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHomeViewController.swift; sourceTree = "<group>"; };
+		1722867229EDEE9F009266F0 /* MenuHomeView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MenuHomeView.storyboard; sourceTree = "<group>"; };
 		176E9A1629E8A180006B2904 /* Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		176E9A1929E8A180006B2904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		176E9A1B29E8A180006B2904 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,9 +38,9 @@
 		176E9A2529E8A181006B2904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		176E9A2729E8A181006B2904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		178A49CF29EDBE8400BCEB73 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		178A49D529EDC1BA00BCEB73 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		178A49D729EDC1DA00BCEB73 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		178A49D929EDC1F200BCEB73 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		178A49D529EDC1BA00BCEB73 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		178A49D729EDC1DA00BCEB73 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		178A49D929EDC1F200BCEB73 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		178A49DB29EDC8CE00BCEB73 /* ColorExtantion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtantion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +55,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1722866529EDE266009266F0 /* AppSections */ = {
+			isa = PBXGroup;
+			children = (
+				178A49D429EDC0DA00BCEB73 /* TabBarController */,
+				1722866C29EDEC12009266F0 /* PofileViewController */,
+				1722866929EDE93E009266F0 /* CartViewController */,
+				1722866629EDE29B009266F0 /* HomeViewController */,
+			);
+			path = AppSections;
+			sourceTree = "<group>";
+		};
+		1722866629EDE29B009266F0 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				178A49D529EDC1BA00BCEB73 /* HomeViewController.swift */,
+				1722866729EDE2D5009266F0 /* HomeView.storyboard */,
+				1722867129EDEE7B009266F0 /* MenuHomeViewController */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		1722866929EDE93E009266F0 /* CartViewController */ = {
+			isa = PBXGroup;
+			children = (
+				178A49D729EDC1DA00BCEB73 /* CartViewController.swift */,
+				1722866A29EDE98E009266F0 /* CartView.storyboard */,
+			);
+			path = CartViewController;
+			sourceTree = "<group>";
+		};
+		1722866C29EDEC12009266F0 /* PofileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				178A49D929EDC1F200BCEB73 /* ProfileViewController.swift */,
+				1722866D29EDEC44009266F0 /* ProfileView.storyboard */,
+			);
+			path = PofileViewController;
+			sourceTree = "<group>";
+		};
+		1722867129EDEE7B009266F0 /* MenuHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1722866F29EDEE58009266F0 /* MenuHomeViewController.swift */,
+				1722867229EDEE9F009266F0 /* MenuHomeView.storyboard */,
+			);
+			path = MenuHomeViewController;
+			sourceTree = "<group>";
+		};
 		176E9A0D29E8A180006B2904 = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +122,9 @@
 		176E9A1829E8A180006B2904 /* Booking */ = {
 			isa = PBXGroup;
 			children = (
+				1722866529EDE266009266F0 /* AppSections */,
 				176E9A1929E8A180006B2904 /* AppDelegate.swift */,
 				176E9A1B29E8A180006B2904 /* SceneDelegate.swift */,
-				178A49D429EDC0DA00BCEB73 /* Controller */,
-				178A49D229EDC0B700BCEB73 /* View */,
 				178A49D129EDC0B000BCEB73 /* Modal */,
 				176E9A1F29E8A180006B2904 /* Main.storyboard */,
 				176E9A2229E8A181006B2904 /* Assets.xcassets */,
@@ -85,22 +142,12 @@
 			path = Modal;
 			sourceTree = "<group>";
 		};
-		178A49D229EDC0B700BCEB73 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		178A49D429EDC0DA00BCEB73 /* Controller */ = {
+		178A49D429EDC0DA00BCEB73 /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
 				178A49CF29EDBE8400BCEB73 /* MainTabBarController.swift */,
-				178A49D529EDC1BA00BCEB73 /* FirstViewController.swift */,
-				178A49D729EDC1DA00BCEB73 /* SecondViewController.swift */,
-				178A49D929EDC1F200BCEB73 /* ThirdViewController.swift */,
 			);
-			path = Controller;
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,9 +208,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1722867329EDEE9F009266F0 /* MenuHomeView.storyboard in Resources */,
 				176E9A2629E8A181006B2904 /* LaunchScreen.storyboard in Resources */,
 				176E9A2329E8A181006B2904 /* Assets.xcassets in Resources */,
+				1722866829EDE2D5009266F0 /* HomeView.storyboard in Resources */,
+				1722866B29EDE98E009266F0 /* CartView.storyboard in Resources */,
 				176E9A2129E8A180006B2904 /* Main.storyboard in Resources */,
+				1722866E29EDEC44009266F0 /* ProfileView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,9 +228,10 @@
 				176E9A1A29E8A180006B2904 /* AppDelegate.swift in Sources */,
 				178A49D029EDBE8400BCEB73 /* MainTabBarController.swift in Sources */,
 				176E9A1C29E8A180006B2904 /* SceneDelegate.swift in Sources */,
-				178A49D829EDC1DA00BCEB73 /* SecondViewController.swift in Sources */,
-				178A49DA29EDC1F200BCEB73 /* ThirdViewController.swift in Sources */,
-				178A49D629EDC1BA00BCEB73 /* FirstViewController.swift in Sources */,
+				178A49D829EDC1DA00BCEB73 /* CartViewController.swift in Sources */,
+				1722867029EDEE58009266F0 /* MenuHomeViewController.swift in Sources */,
+				178A49DA29EDC1F200BCEB73 /* ProfileViewController.swift in Sources */,
+				178A49D629EDC1BA00BCEB73 /* HomeViewController.swift in Sources */,
 				178A49DC29EDC8CE00BCEB73 /* ColorExtantion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

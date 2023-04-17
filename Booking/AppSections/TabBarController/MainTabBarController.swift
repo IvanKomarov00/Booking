@@ -24,9 +24,18 @@ class MainTabBarController: UITabBarController{
     //Create TabBar
     private func generateTabBar(){
         viewControllers = [
-        generateVC(viewController: FirstViewController(), title: "Home", image: UIImage(systemName: "house")),
-        generateVC(viewController: SecondViewController(), title: "Order", image: UIImage(systemName: "cart")),
-        generateVC(viewController: ThirdViewController(), title: "Profile", image: UIImage(systemName: "person.crop.circle"))
+            generateVC(
+                viewController: UINavigationController(rootViewController: HomeViewController.instantiateInitialStoryboard(book: "Welcome")),
+                title: "Home",
+                image: UIImage(systemName: "house")),
+            generateVC(
+                viewController: UINavigationController(rootViewController: CartViewController.instantiateInitialStoryboard()),
+                title: "Cart",
+                image: UIImage(systemName: "cart")),
+            generateVC(
+                viewController: UINavigationController(rootViewController: ProfileViewController.instantiateInitialStoryboard()),
+                title: "Profile",
+                image: UIImage(systemName: "person.crop.circle"))
         ]
     }
     
